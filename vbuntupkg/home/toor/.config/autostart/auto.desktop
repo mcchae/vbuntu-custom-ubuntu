@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Change Wallpaper
+Comment=Change Wallpaper
+Exec=/opt/VbuntuServer/new_wallpaper
+Terminal=false

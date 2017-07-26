@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# postinst script is for script after package install
+bash /opt/VbuntuServer/postinstall.sh
+ldconfig

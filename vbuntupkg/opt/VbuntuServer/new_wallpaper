@@ -1,0 +1,10 @@
+#!/bin/bash
+
+rmdir /home/toor/공개 /home/toor/문서 /home/toor/비디오 /home/toor/사진 /home/toor/음악 /home/toor/템플릿 2>/dev/null
+rmdir /home/toor/Public /home/toor/Documents /home/toor/Videos /home/toor/Pictures /home/toor/Music /home/toor/Templates 2>/dev/null
+
+export DISPLAY=:0.0
+export XAUTHORITY=/home/toor/.Xauthority
+pcmanfm -w $(ls /opt/VbuntuServer/WallPapers4K/*.jpg | shuf -n 1) 2>/tmp/pcmanfm.err
+echo "return code of pcmanfm = $?" > /tmp/pcmanfm.out
+

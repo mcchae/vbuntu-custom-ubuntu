@@ -1,0 +1,8 @@
+Package: vbuntupkg
+Version: 1.0.1-1
+Section: extra
+Priority: optional
+Architecture: all
+Depends:build-essential,subversion,python2.7,lxde-common,lxdm
+Maintainer: MoonChang Chae<mcchae@gmail.com>
+Description: Vbuntu Server configuration

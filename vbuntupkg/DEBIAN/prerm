@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# prerm script is for remove some files ... script before package install
+bash /opt/VbuntuServer/preinstall.sh
